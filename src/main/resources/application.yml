@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/youtubemanyjpa?useSSL=false
+    password: '00000000'
+  jpa:
+    hibernate:
+      ddl-auto: update
+#server:
+#  port: 8082
